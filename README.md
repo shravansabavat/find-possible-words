@@ -9,7 +9,8 @@
  
  3. A list of block of words is supplied at runtime as a system input to this program to search for valid words from the valid-words.txt file. For example
                     TAMHAT(enter)
-  									AIRQDR(enter)
-  									MONCRT(enter)
-  									EDRTCR(enter)
+                    AIRQDR(enter)
+                    MONCRT(enter)
+                    EDRTCR(enter)
+                    (enter) - And the last line should be an empty for the input to exit
 
