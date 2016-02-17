@@ -1,4 +1,4 @@
-package com.zafin.interview.codingtest;
+package com.problems.iterative;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,7 +28,7 @@ import java.util.Set;
  * @author ssabavat
  *
  */
-public class ZafinSolution {
+public class Solution {
 	
 	private static final String LINE_SEP = System.getProperty("line.separator", "\r\n");
 	
@@ -47,7 +47,7 @@ public class ZafinSolution {
 			wordsBlock.append(line).append(LINE_SEP);
 		}
 
-		ZafinSolution solution = new ZafinSolution();
+		Solution solution = new Solution();
 		solution.loadValidWords("valid-words.txt");
 		solution.convertWordsBlockInto2dArr(wordsBlock);
 		solution.findWords();
